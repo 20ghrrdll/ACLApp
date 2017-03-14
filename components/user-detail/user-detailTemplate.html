@@ -1,0 +1,12 @@
+<div>
+	<form>
+		<label>
+			<input type="checkbox" ng-model="user.special">
+		</label>
+	</form>
+	<h2>{{ user.first_name }} {{ user.last_name }} ~ {{ user.occupation }}</h2>
+	<p class="location">{{ user.location }}</p>
+	<p>{{ user.description }}</p>
+
+	<a href="#/photos/{{ user._id }}">Photos</a>
+</div>

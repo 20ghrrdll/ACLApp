@@ -1,0 +1,28 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+
+#content {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.toolbar{
+	color: white;
+}
+
+div.toolbar{
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+}
+
+#myName{
+	padding-left:0.5em;
+}

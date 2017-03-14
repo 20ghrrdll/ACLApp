@@ -1,0 +1,15 @@
+<div>
+	<div ng-repeat="photo in photos">
+		<md-card>
+			<img ng-src="../images/{{ photo.file_name }}">
+			<span class="md-title">{{ photo.date_time }}</span>
+			<md-card-content>
+				<h4>Comments:</h4>
+				<div ng-repeat="comment in photo.comments">
+					<p>{{ comment.date_time }}</p>
+					<p><a href="#/users/{{ comment.user._id }}">{{ comment.user.first_name }} {{ comment.user.last_name }}</a>: {{ comment.comment }}</p>
+				</div>
+			</md-card-content>
+		</md-card>
+	</div>
+</div>
