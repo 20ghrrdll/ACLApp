@@ -25,31 +25,42 @@
         <script src="mainController.js"></script>
         <link rel="stylesheet" type="text/css" href="main.css" />
 
-        <script src="components/user-list/user-listController.js"></script>
-        <link rel="stylesheet" type="text/css" href="components/user-list/user-list.css" />
-
         <script src="components/my-team/my-teamController.js"></script>
         <link rel="stylesheet" type="text/css" href="components/my-team/my-team.css" />
-
-        <script src="components/user-photos/user-photosController.js"></script>
-        <link rel="stylesheet" type="text/css" href="components/user-photos/user-photos.css" />
-
-        <script src="modelData/photoApp.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     </head>
+    <body>
 
-    <body layout="column">
+    <!--<div class="sidebar sidebar-left"></div>
+    <div class="sidebar sidebar-right"></div>
+
+    <div class="app">
+      <div class="navbar navbar-app navbar-absolute-top"></div>-->
+      <div class="navbar navbar-app navbar-absolute-bottom"><!-- Bottom Navbar --></div>
+
+      <!-- App body -->
+      <h3>hello!</h3>
+
+      <div class='container'>
+        <div ng-include="'components/my-team/my-teamTemplate.html'" ng-controller="MyTeamController"></div>
+      </div>
+
+    </div><!-- ~ .app -->
+
+    <!-- Modals and Overlays -->
+    <div ui-yield-to="modals"></div>
+  </body>
+
+    <!--<body layout="column">
 
         <md-toolbar layout = "row">
             <span flex="" id="myName"> <h2 class="toolbar">Carah Alexander</h2></span>
             <span flex="" id="context"><h2 class="toolbar">{{ main.title }}</h2></span>
-            <div class="toolbar">Version no.{{ main.versionNo }}</div>
         </md-toolbar>
 
         <div class="container" flex layout="row">
 
             <md-sidenav md-is-locked-open="true" class="md-whiteframe-z2">
-                <div ng-include="'components/user-list/user-listTemplate.html'" ng-controller="UserListController"></div>
+                <div ng-include="'components/my-team/my-teamTemplate.html'" ng-controller="MyTeamController"></div>
             </md-sidenav>
 
             <md-content flex id="content">
@@ -58,5 +69,5 @@
 
         </div>
 
-    </body>
+    </body>-->
 </html>

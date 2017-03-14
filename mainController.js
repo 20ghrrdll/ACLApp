@@ -6,10 +6,6 @@ cs142App.config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider.
             when('/users', {
-                templateUrl: 'components/user-list/user-listTemplate.html',
-                controller: 'UserListController'
-            }).
-            when('/users/:userId', {
                 templateUrl: 'components/my-team/my-teamTemplate.html',
                 controller: 'MyTeamController'
             }).
