@@ -1,0 +1,59 @@
+.clock-header {
+  background: #444;
+  color: #fff;
+  font-size: 23px;
+  line-height: 40px;
+  text-align: center;
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.clock-hour {
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.clock-hour, .clock-hand, .clock-hour:hover, .clock-hour:active, .clock-hour:focus {
+  border-radius: 999px;
+  background: #444;
+  color: #f4f4f4;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 50%; left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+}
+.clock-hand {
+  margin-top: -20px;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #444;
+}
+.clock-hour:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+}
+.clock-hour:active {
+  opacity: .7;
+}
+clock {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

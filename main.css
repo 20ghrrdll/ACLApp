@@ -30,3 +30,9 @@ div.toolbar{
 .navbar-app{
 	min-height: 10%;
 }
+
+.nav-icon {
+	margin: 2%;
+	height: 100px;
+	width: 100px;
+}
