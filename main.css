@@ -35,8 +35,15 @@ div.toolbar{
 	margin: 2%; 
 	height: 100px;
 	width: 100px;
+	/*display: inline-block;*/
+    /*width: 100%;*/
+    position:relative;
+    top: 10px;
+    left: 44px;
 }
 
 .nav-label {
 	font-size: 2em;
+	padding-top: 5px;
+	text-align:center;
 }
