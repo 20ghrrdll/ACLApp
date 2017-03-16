@@ -32,7 +32,11 @@ div.toolbar{
 }
 
 .nav-icon {
-	margin: 2%;
+	margin: 2%; 
 	height: 100px;
 	width: 100px;
+}
+
+.nav-label {
+	font-size: 2em;
 }
