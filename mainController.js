@@ -1,6 +1,6 @@
 'use strict';
 
-var cs142App = angular.module('cs142App', ['ngRoute', 'ngMaterial']);
+var cs142App = angular.module('cs142App', ['ngRoute', 'ngMaterial', 'mobile-angular-ui.gestures']);
 
 cs142App.config(['$routeProvider',
     function ($routeProvider) {

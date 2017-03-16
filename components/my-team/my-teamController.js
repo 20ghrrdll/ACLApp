@@ -5,11 +5,11 @@ cs142App.controller('MyTeamController', ['$scope',
 
     }]);
 
-/*cs142App.run(['$rootScope', function($rootScope){
+cs142App.run(['$rootScope', function($rootScope){
   $rootScope.selectedHour = 12;
 }]);
 
-cs142App.directive('clock', ['$transformProvider',function($transform) {
+cs142App.directive('clock', ['$transform',function($transform) {
   return {
     restrict: 'E',
     scope: {
@@ -33,19 +33,7 @@ cs142App.directive('clock', ['$transformProvider',function($transform) {
           'rotate(' + (30 * hour - 90) + 'deg) translateX(100px)');
       };
 
-      return function postLink(scope, element) {
-        var dragging = false;
-
-        var unwatch = scope.$watch('model', function(h) {
-          if (!dragging) { centerHandToHour(h); }
-        });
-
-        element.on('$destroy', function() {
-          unwatch();
-        });
-       
-      }
     }
   };
-}]);*/
+}]);
 
