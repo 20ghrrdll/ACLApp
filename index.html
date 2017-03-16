@@ -33,6 +33,9 @@
 
         <script src="components/my-team/my-teamController.js"></script>
         <link rel="stylesheet" type="text/css" href="components/my-team/my-team.css" />
+
+        <script src="components/my-timeline/my-timelineController.js"></script>
+        <link rel="stylesheet" type="text/css" href="components/my-timeline/my-timeline.css" />
     </head>
     <body>
 
@@ -68,19 +71,17 @@
           </a>
         </span>
         <span flex = ""> 
-          <a href="/myprofile">
-              <div><img class = "nav-icon" src="../images/myprofile.png" alt="myprofile"></div>
-              <div class = "nav-label">My profile</div>
+          <a href="/my-timeline">
+              <div><img class = "nav-icon" src="../images/my-timeline.png" alt="my-timeline"></div>
+              <div class = "nav-label">My timeline</div>
           </a>
         </span>
 
       </div>
 
       <!-- App body -->
-      <h3>hello!</h3>
-
       <div class='container'>
-        <div ng-include="'components/my-team/my-teamTemplate.html'" ng-controller="MyTeamController"></div>
+        <ng-view></ng-view>
       </div>
 
     </div><!-- ~ .app -->

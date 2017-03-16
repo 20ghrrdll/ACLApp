@@ -1,3 +1,7 @@
 h1 {
-  fill: red;
+  color: red;
+}
+
+.background-image {
+  min-width: 100%;
 }
