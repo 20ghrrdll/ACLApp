@@ -9,6 +9,10 @@ cs142App.config(['$routeProvider',
                 templateUrl: 'components/my-team/my-teamTemplate.html',
                 controller: 'MyTeamController'
             }).
+            when('/stories', {
+                templateUrl: 'components/stories/storiesTemplate.html',
+                controller: 'StoriesController'
+            }).
             when('/my-timeline', {
                 templateUrl: 'components/my-timeline/my-timelineTemplate.html',
                 controller: 'MyTimelineController'
