@@ -5,6 +5,7 @@
 
 body{
 	font-family: 'Oxygen', sans-serif;
+	background-color: white;
 }
 
 .toolbar{
@@ -78,27 +79,45 @@ div.story-card {
 }
 
 img.timelineNoDots {
-	position:relative;
+	position: absolute;
     top: 10px;
     left: 44px;
-	margin-top: 4em;
+	margin-top: 4rem;
 	height: 125%;
-	width: 150%;
+	width: 25%;
 }
 
 .timelineHeader {
 	position:relative;
     top: 10px;
-    left: 44px;
-    margin-top: 10em;
-    margin-left: 5em;
+    left: 124px;
+    margin-top: 10rem;
+    margin-left: 5rem;
 }
 
 .timelineContent{
+	position:relative;
 	z-index: 1;
 	font-family: 'Oxygen', sans-serif;
+	overflow-y: scroll;
 }
 
 .post {
-	margin-left: 10em;
+	margin-left: 15em;
+}
+
+.cardlimit{
+	width: 80%;
+	min-height: 20%;
+	font-size: 3rem;
+}
+
+textarea.makePost{
+	position:relative;
+	top: 10px;
+	left: 10px;
+	width: 475px;
+  	height: 20%;
+  	margin: 1em;
+
 }

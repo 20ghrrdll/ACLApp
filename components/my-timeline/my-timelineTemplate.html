@@ -6,15 +6,21 @@
 	</div>
 	<div layout="column" class="timelineContent">
 		<span class="timelineHeader"><h1>Your Timeline</h1></span>
+		<div class="post" layout="row">
+			<md-card class ="cardlimit">
+		        <md-card-content>
+		        	<textarea class="makePost" placeholder="How is your recovery going today?"></textarea>
+		        	<div class="submitButton"><button>Post</button></div>
+		        </md-card-content>
+	      	</md-card>
+	     </div>
 		<div ng-repeat="post in posts">
 			<div class="post" layout="row">
-				<span class ="cardlimit">
-				<md-card>
+				<md-card class ="cardlimit">
 			        <md-card-content>
 			        	{{post.content}}
 			        </md-card-content>
 		      	</md-card>
-		      	</span>
 	      	</div> 
 		</div>
 	</div>
