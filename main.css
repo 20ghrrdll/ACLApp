@@ -98,7 +98,8 @@ img.timelineNoDots {
     top: 10px;
     left: 124px;
     margin-top: 10rem;
-    margin-left: 5rem;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
 }
 
 .timelineContent{
@@ -122,8 +123,8 @@ textarea.makePost{
 	position:relative;
 	top: 10px;
 	left: 10px;
-	width: 475px;
+	width: 425px;
   	height: 20%;
-  	margin: 1em;
+  	margin: 0.5em;
 
 }
