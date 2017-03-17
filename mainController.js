@@ -26,12 +26,6 @@ cs142App.config(['$routeProvider',
             });
     }]);
 
-cs142App.config(function($mdThemingProvider) {
-  $mdThemingProvider.theme('default')
-    .primaryPalette('cyan')
-    .accentPalette('pink');
-});
-
 cs142App.controller('MainController', ['$scope',
     function ($scope) {
         $scope.main = {};
