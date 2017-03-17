@@ -21,13 +21,35 @@ div.toolbar{
 }
 
 h1 {
-	font-size: 12em;
+	font-size: 6em;
 }
 
 p {
-	font-size: 5em;
+	font-size: 2em;
 }
 
+.bold {
+	font-weight: bold;
+}
+
+/****************************(story) Card***********************/
+div.story-card {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.card-header {
+	color: orange;
+	font-size: 6em;
+	padding: 90px 5px 5px 5px;
+}
+
+.story-icon {
+	width: 70px;
+}
+
+
+/****************************Navbar***********************/
 .navbar-app{
 	min-height: 10%;
 }
@@ -42,6 +64,7 @@ p {
     top: 10px;
     left: 44px;
 }
+
 
 .nav-label {
 	font-size: 2em;
