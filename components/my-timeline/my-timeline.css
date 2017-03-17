@@ -17,3 +17,11 @@ body{
 .timelineHeader {
 	color: #61B6F9;
 }
+
+.postButton {
+	position: relative;
+	margin-top: 1em;
+    bottom: 1em;
+    left: 12em;
+    color: #4A6EAA;
+}
