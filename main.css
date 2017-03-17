@@ -33,6 +33,12 @@ p {
 	font-weight: bold;
 }
 
+/****************************checkin***********************/
+.background-image {
+	width: 100%;
+}
+
+
 /****************************(story) Card***********************/
 div.story-card {
   padding: 10px;
