@@ -1,0 +1,19 @@
+.circle{
+  margin: 2em;
+  border-radius: 50%;
+  width: 10%;
+
+}
+
+.post{
+	margin-bottom: 10%;
+}
+
+body{
+	background: linear-gradient(white, #61B6F9);
+	font-family: 'Oxygen', sans-serif;
+}
+
+.timelineHeader {
+	color: #61B6F9;
+}

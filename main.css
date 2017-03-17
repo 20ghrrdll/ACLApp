@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 }
 
 .toolbar{
@@ -70,4 +70,35 @@ div.story-card {
 	font-size: 2em;
 	padding-top: 5px;
 	text-align:center;
+}
+
+/***************************Timeline********************/
+.timelineContainer {
+	width: 50%;
+}
+
+img.timelineNoDots {
+	position:relative;
+    top: 10px;
+    left: 44px;
+	margin-top: 4em;
+	height: 125%;
+	width: 150%;
+}
+
+.timelineHeader {
+	position:relative;
+    top: 10px;
+    left: 44px;
+    margin-top: 10em;
+    margin-left: 5em;
+}
+
+.timelineContent{
+	z-index: 1;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.post {
+	margin-left: 10em;
 }
