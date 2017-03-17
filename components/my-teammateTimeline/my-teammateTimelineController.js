@@ -1,6 +1,6 @@
 'use strict';
 
-cs142App.controller('MyTimelineController', ['$scope',
+cs142App.controller('MyTeammateTimelineController', ['$scope',
     function ($scope) {
     	$scope.posts = [
     		{content: "Headed back to class today. College campuses are so hard to navigate on crutches!"},
