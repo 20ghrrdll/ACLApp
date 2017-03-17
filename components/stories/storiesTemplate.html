@@ -1,8 +1,20 @@
 
-<div id="image-container" class="scrollable">
+<div class="scrollable">
 	<div class="scrollable-content">
-
-		<md-card>
+	<h1>Recovery Stories </h1>
+		<div ng-repeat="post in posts">
+			<div class="post" layout="row">
+				<md-card class ="cardlimit">
+			        <md-card-content> 
+						<span class="card-header">{{post.name}}</span>
+						<p><span class="bold">Sport: </span>{{post.sport}}</p>
+						<p><span class="bold">Inspiration: </span>{{post.inspiration}}</p>
+						<p><span class="bold">Bio: </span>{{post.bio}}</p>
+			        </md-card-content>
+		      	</md-card>
+	      	</div> 
+		</div>
+		<!-- <md-card>
 			<md-card-content class="story-card">
 				<span><img class = "story-icon" src="../images/football.png" alt="football"></span>
 				<span class="card-header">bigTOser</span>
@@ -10,7 +22,7 @@
 				<p><span class="bold">Inspiration: </span>I do what I do to make my family proud, especially my mom, who put in so much sweat and tears into making me the man I am today and guiding me through rough spots.</p>
 				<p><span class="bold">Bio: </span>Lineman with a penchant for in-n-out and long walks on the beach</p>
 			</md-card-content>
-		</md-card>
+		</md-card> -->
 
 	</div>
 </div>
