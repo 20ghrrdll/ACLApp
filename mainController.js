@@ -13,6 +13,10 @@ cs142App.config(['$routeProvider',
                 templateUrl: 'components/stories/storiesTemplate.html',
                 controller: 'StoriesController'
             }).
+            when('/newsfeed', {
+                templateUrl: 'components/newsfeed/newsfeedTemplate.html',
+                controller: 'NewsfeedController'
+            }).
             when('/checkin', {
                 templateUrl: 'components/checkin/checkinTemplate.html',
                 controller: 'CheckinController'
