@@ -25,3 +25,24 @@ body{
     left: 12em;
     color: #4A6EAA;
 }
+
+img.timelineNoDots {
+	position: absolute;
+    top: 10px;
+    left: 44px;
+	margin-top: 4rem;
+	height: 100%;
+	width: 25%;
+}
+
+.contactButtonsContainer {
+	margin-left: 25rem;
+	height:5%;
+	margin-bottom: 2rem;
+}
+
+.contactButton{
+	margin: 2rem;
+	height: 75%;
+	width: 25%;
+}
