@@ -13,6 +13,10 @@ cs142App.config(['$routeProvider',
                 templateUrl: 'components/stories/storiesTemplate.html',
                 controller: 'StoriesController'
             }).
+            when('/checkin', {
+                templateUrl: 'components/checkin/checkinTemplate.html',
+                controller: 'CheckinController'
+            }).
             when('/my-timeline', {
                 templateUrl: 'components/my-timeline/my-timelineTemplate.html',
                 controller: 'MyTimelineController'

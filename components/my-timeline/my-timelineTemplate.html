@@ -1,28 +1,46 @@
+<div class="scrollable">
+				<div class="scrollable-content">
+		<div layout = "row" class="timelineAndPostsContainer">
+			
+			<div class="timelineContainer">
+				<img class ="timelineNoDots" ng-src="/images/timelineNoDots.png">
+			</div>
+			
+				<div layout="column" class="timelineContent">
+					
+					<span class="timelineHeader"><h1>Your Timeline</h1></span>
+
+							<div class="post" layout="row">
+								<md-card class ="cardlimit">
+							        <md-card-content>
+							        	<textarea class="makePost" placeholder="How is your recovery going today?"></textarea>
+							        	<div class="postButton"><button>Post</button></div>
+							        </md-card-content>
+						      	</md-card>
+						     </div>
+							<div ng-repeat="post in posts">
+								<div class="post" layout="row">
+									<md-card class ="cardlimit">
+								        <md-card-content>
+								        	{{post.content}}
+								        </md-card-content>
+							      	</md-card>
+						      	</div> 
+							</div>
+						
+				</div> <!-- column -->
+		
+			
+			
 
 
-<div layout = "row" class="timelineAndPostsContainer">
-	<div class="timelineContainer">
-		<img class ="timelineNoDots" ng-src="/images/timelineNoDots.png">
+
+		</div> <!-- end timeline content -->
+
+
 	</div>
-	<div layout="column" class="timelineContent">
-		<span class="timelineHeader"><h1>Your Timeline</h1></span>
-		<div class="post" layout="row">
-			<md-card class ="cardlimit">
-		        <md-card-content>
-		        	<textarea class="makePost" placeholder="How is your recovery going today?"></textarea>
-		        	<div class="postButton"><button>Post</button></div>
-		        </md-card-content>
-	      	</md-card>
-	     </div>
-		<div ng-repeat="post in posts">
-			<div class="post" layout="row">
-				<md-card class ="cardlimit">
-			        <md-card-content>
-			        	{{post.content}}
-			        </md-card-content>
-		      	</md-card>
-	      	</div> 
 		</div>
-	</div>
-</div>
+
+
+
 

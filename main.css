@@ -23,15 +23,22 @@ div.toolbar{
 
 h1 {
 	font-size: 6em;
+	text-align: center;
 }
 
 p {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .bold {
 	font-weight: bold;
 }
+
+/****************************checkin***********************/
+.background-image {
+	width: 100%;
+}
+
 
 /****************************(story) Card***********************/
 div.story-card {
@@ -41,7 +48,7 @@ div.story-card {
 
 .card-header {
 	color: orange;
-	font-size: 6em;
+	font-size: 4em;
 	padding: 90px 5px 5px 5px;
 }
 
