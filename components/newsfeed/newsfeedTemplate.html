@@ -1,0 +1,19 @@
+
+<div class="scrollable">
+	<div class="scrollable-content">
+	<h1>News feed </h1>
+		<div ng-repeat="post in posts">
+			<div class="post" layout="row">
+				<md-card class ="cardlimit">
+			        <md-card-content> 
+						<span class="card-header">{{post.name}}</span>
+						<p><span class="bold">Sport: </span>{{post.sport}}</p>
+						<p><span class="bold">{{post.content}}</p>
+
+			        </md-card-content>
+		      	</md-card>
+	      	</div> 
+		</div>
+
+	</div>
+</div>

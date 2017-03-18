@@ -26,20 +26,6 @@ cs142App.controller('StoriesController', ['$scope',
     		 bio: "Former hyper-active college athlete, now a lawyer and yoga teacher"
     		}
     	];
-    	// $scope.posts = [
-    	// 	{
-    	// 	 name: "BigTOser", 
-    	// 	 sport:"football", 
-    	// 	 inspiration: "My family and teammates", 
-    	// 	 bio: "Lineman with a penchant for in-n-out and long walks on the beach"
-    	// 	}
-    	// 	// ,{name: "BigTOser2", 
-    	// 	//  sport:"football2", 
-    	// 	//  inspiration: "My family and teammates2", 
-    	// 	//  bio: "2:Lineman with a penchant for in-n-out and long walks on the beach"
-    	// 	// }
-    		
-    	// ];
     }]);
 
 cs142App.run(['$rootScope', function($rootScope){
