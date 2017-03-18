@@ -5,7 +5,7 @@ var cs142App = angular.module('cs142App', ['ngRoute', 'ngMaterial', 'mobile-angu
 cs142App.config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider.
-            when('/users', {
+            when('/team', {
                 templateUrl: 'components/my-team/my-teamTemplate.html',
                 controller: 'MyTeamController'
             }).
@@ -25,16 +25,8 @@ cs142App.config(['$routeProvider',
                 templateUrl: 'components/my-teammateTimeline/my-teammateTimelineTemplate.html',
                 controller: 'MyTeammateTimelineController'
             }).
-            when('/photos/:userId', {
-                templateUrl: 'components/user-photos/user-photosTemplate.html',
-                controller: 'UserPhotosController'
-            }).
-            when('/photos/:userId/:photoId', {
-                templateUrl: 'components/user-photos/user-photosTemplate.html',
-                controller: 'UserPhotosController'
-            }).
             otherwise({
-                redirectTo: '/users'
+                redirectTo: '/team'
             });
     }]);
 
