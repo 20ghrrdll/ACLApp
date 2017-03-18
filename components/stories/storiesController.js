@@ -8,7 +8,7 @@ cs142App.controller('StoriesController', ['$scope',
     		 name: "BigTOser", 
     		 sport:"football", 
     		 inspiration: "My family and teammates", 
-    		 bio: "Lineman with a penchant for in-n-out and long walks on the beach"
+    		 bio: "Was a Lineman, now I have a penchant for in-n-out and long walks on the beach"
     		},
     		{name: "LaxLuv32", 
     		 sport:"LAX", 
