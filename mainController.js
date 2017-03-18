@@ -17,6 +17,10 @@ cs142App.config(['$routeProvider',
                 templateUrl: 'components/my-timeline/my-timelineTemplate.html',
                 controller: 'MyTimelineController'
             }).
+            when('/my-teammateTimeline', {
+                templateUrl: 'components/my-teammateTimeline/my-teammateTimelineTemplate.html',
+                controller: 'MyTeammateTimelineController'
+            }).
             when('/photos/:userId', {
                 templateUrl: 'components/user-photos/user-photosTemplate.html',
                 controller: 'UserPhotosController'
